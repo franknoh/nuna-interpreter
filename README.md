@@ -1,2 +1,2 @@
 # nuna-interpreter
- 비공식 javascript NUNA 인터프리터
+ 비공식 nodejs NUNA 인터프리터
