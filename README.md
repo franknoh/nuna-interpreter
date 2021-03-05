@@ -3,8 +3,13 @@
 
 # 사용법
 
+```shell
+$ npm install @franknoh/nuna-interpreter
+```
+
 ```javascript
-Nuna = require('./nuna');
+Nuna = require('@franknoh/nuna-interpreter');
+//Nuna = require('./nuna');
 Nuna.init(); // 선택
 ```
 
@@ -19,7 +24,7 @@ Nuna.exec(src) // src의 실행결과 또는 src.nuna의 실행결과 반환
 # 예시
 
 ```javascript
-Nuna = require('./nuna');
+Nuna = require('@franknoh/nuna-interpreter');
 Nuna.init();
 
 // dict
@@ -28,7 +33,7 @@ console.log(Nuna.list());
 ```
 
 ```javascript
-Nuna = require('./nuna');
+Nuna = require('@franknoh/nuna-interpreter');
 Nuna.init();
 
 // test.nuna
@@ -37,7 +42,7 @@ console.log(Nuna.exec(`test`));
 ```
 
 ```javascript
-Nuna = require('./nuna');
+Nuna = require('@franknoh/nuna-interpreter');
 Nuna.init();
 
 // text
@@ -52,3 +57,4 @@ console.log(Nuna.exec(`
 
 - 3/4
   - 오류수정, 0.2v와 0.3v 구분
+  - package 출시
