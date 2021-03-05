@@ -1,6 +1,8 @@
 # nuna-interpreter
  비공식 nodejs NUNA 인터프리터
 
+![npm (scoped)](https://img.shields.io/npm/v/@franknoh/nuna-interpreter?style=for-the-badge)
+
 # 사용법
 
 ```shell
